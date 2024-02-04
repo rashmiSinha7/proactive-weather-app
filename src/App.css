@@ -1,0 +1,18 @@
+body {
+   background-image: url('./utils/Images/clear-day.jpg');
+}
+
+.App {
+  text-align: center;
+  padding-bottom: 3%;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    font-size: 18px;
+  }
+}

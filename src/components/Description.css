@@ -1,0 +1,33 @@
+.description {
+    margin: 2% 12.5% 0%;
+    padding: 10px 0px 10px;
+    background: rgba(255, 255, 255, 0.5);
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 75%;
+    border: solid rgba(255, 255, 255, 0.5) 2px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 16px;
+    line-height: 5px;
+  }
+  
+  .primary_des {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .description{
+        line-height: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+      .description{
+          line-height: 20px;
+      }
+    }
